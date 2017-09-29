@@ -1,4 +1,4 @@
-'import java.utill.Scanner;
+import java.util.Scanner;
 class customer
 {
 Scanner sc=new Scanner(System.in)
