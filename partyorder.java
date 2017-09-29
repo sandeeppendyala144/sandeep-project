@@ -3,39 +3,34 @@ class partyorder
 {
 public static void main(String[]args)
 {
-Scanner sc=new Scanner(System.in)
+Scanner sc=new Scanner(System.in);
 System.out.println("please enter the the party type");
 String s=sc.nextline();
 System.out.println("please enter number of guests");
-int a=sc.nextInt();
+int g=sc.nextInt();
 switch(s)
 {
 case"birthday":
-System.out println("for non veg contact office")
-System.out.println("please leave your details for example number of items to be serve///sweats,and curries");
+System.out.println("for non veg contact office");
 System.out.println("please enter number of  sweats to be serve ");
-int b=sc.nextInt();
+int f=sc.nextInt();
 System.out.println("please enter number of  curries to be serve ");
-int c=sc.nextInt();
-break
+int e=sc.nextInt();
+break;
 case"marriage":
-System.out println("for non veg contact office")
-System.out.println("please leave your details for example number of items to be serve///sweats,and curries");
+System.out.println("for non veg contact office");
 System.out.println("please enter number of  sweats to be serve ");
-int b=sc.nextInt();
+int d=sc.nextInt();
 System.out.println("please enter number of  curries to be serve ");
 int c=sc.nextInt();
-break
+break;
 case"offical":
-System.out println("for non veg contact office")
-System.out.println("please leave your details for example number of items to be serve///sweats,and curries");
+System.out.println("for non veg contact office");
 System.out.println("please enter number of  sweats to be serve ");
 int b=sc.nextInt();
 System.out.println("please enter number of  curries to be serve ");
-int c=sc.nextInt();
-break
-default
-System.out println("error contact office")
+int a=sc.nextInt();
+break;
 }
 }
 }
